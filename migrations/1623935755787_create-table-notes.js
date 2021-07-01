@@ -3,7 +3,7 @@ exports.up = pgm => {
     pgm.createTable('notes', {
         id: {
             type: 'VARCHAR(50)',
-            primartKey: true,
+            primaryKey: true,
         },
         title: {
             type: 'TEXT',
